@@ -1,6 +1,6 @@
 /* hero */
 .hero { 
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     align-items: center;
     padding-top: var(--header-height);
@@ -83,6 +83,10 @@
     box-shadow: 0 0 20px rgba(99,102,241,0.3);
     font-size: 8rem;
     color: var(--text-secondary);
+}
+
+.img-placeholder img {
+    border-radius: 50%;
 }
 
 /* @media */
